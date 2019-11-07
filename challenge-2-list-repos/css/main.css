@@ -1,0 +1,6 @@
+.repo-list .repo {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px 6px;
+    margin: 10px 0;
+}

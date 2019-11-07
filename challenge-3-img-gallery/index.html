@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lightweight Image Gallery</title>
+    <meta name="description" content="Image gallery" />
+    <meta name="author" content="codecorgi" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="./" class="navbar-brand">Dog Image Gallery</a>
+            <button
+              class="navbar-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar-main"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="http://codecorgi.co">codecorgi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Dog Image Gallery</h1>
+          <p>Getting images from DogAPI</p>
+        </div>
+      </div>
+      <section class="container images full-width"></section>
+    </main>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

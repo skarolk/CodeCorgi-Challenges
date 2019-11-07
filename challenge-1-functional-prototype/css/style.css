@@ -1,0 +1,446 @@
+body {
+  font-family: Arial;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+header {
+  font-size: 3vw;
+  padding: 1.2em;
+  padding-bottom: 1.4em;
+  position: relative;
+  left: -3em;
+  height: auto;
+  letter-spacing: 1px;
+}
+
+section {
+  max-width: 100%;
+  position: relative;
+  padding-top: 20%;
+  width: 100%;
+}
+
+.featured {
+  background-color: rgb(67, 119, 185);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 13em;
+  max-width: 70%;
+  display: inline-block;
+}
+
+.featured-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 13em;
+  max-width: 100%;
+  display: inline-block;
+  padding-left: 72%;
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+}
+
+.first-section {
+  max-width: 100%;
+  position: relative;
+  padding-top: 30%;
+  width: 100%;
+}
+
+.four-column {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.small-container {
+  padding-top: 5%;
+  flex: 25%;
+  max-width: 25%;
+}
+
+.small-feature {
+  background-color: yellow;
+  max-height: 50%;
+  height: 20em;
+}
+
+#first {
+  background-color: rgb(67, 119, 185);
+  max-width: 90%;
+}
+
+#second {
+  background-color: rgb(42, 77, 122);
+  max-width: 90%;
+  position: relative;
+  left: 0.35em;
+}
+
+#third {
+  background-color: rgb(131, 46, 148);
+  max-width: 90%;
+  position: relative;
+  left: 0.75em;
+}
+
+#fourth {
+  background-color: rgb(223, 118, 32);
+  max-width: 90%;
+  position: relative;
+  left: 1.1em;
+}
+
+.small-textbox {
+  background-color: rgb(206, 206, 206);
+  position: relative;
+  top: 15%;
+  max-height: 16%;
+  height: 8em;
+}
+
+#first-textbox {
+  max-width: 90%;
+}
+
+#second-textbox {
+  max-width: 90%;
+  position: relative;
+  left: 0.35em;
+}
+
+#third-textbox {
+  max-width: 90%;
+  position: relative;
+  left: 0.75em;
+}
+
+#fourth-textbox {
+  max-width: 90%;
+  position: relative;
+  left: 1.1em;
+}
+
+.second-section {
+  max-width: 100%;
+  position: relative;
+  padding-top: 50%;
+  width: 100%;
+}
+
+.three-column {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.med-container {
+  padding-top: 3.5%;
+  flex: 33.33%;
+  max-width: 33.33%;
+}
+
+.med-feature {
+  background-color: yellow;
+  max-height: 42%;
+  height: 20em;
+}
+
+#first-med {
+  background-color: rgb(192, 46, 46);
+  max-width: 90%;
+  height: 12em;
+}
+
+#second-med {
+  background-color: rgb(235, 216, 49);
+  max-width: 90%;
+  position: relative;
+  left: 0.7em;
+}
+
+#third-med {
+  background-color: rgb(34, 133, 31);
+  max-width: 90%;
+  position: relative;
+  left: 1.45em;
+}
+
+.med-textbox {
+  background-color: rgb(206, 206, 206);
+  position: relative;
+  top: 11%;
+  max-height: 9%;
+  height: 8em;
+}
+
+#med-first-textbox {
+  max-width: 90%;
+}
+
+#med-second-textbox {
+  max-width: 90%;
+  position: relative;
+  left: 0.75em;
+}
+
+#med-third-textbox {
+  max-width: 90%;
+  position: relative;
+  left: 1.5em;
+}
+
+.second-med-textbox {
+  background-color: rgb(206, 206, 206);
+  position: relative;
+  top: 10%;
+  max-height: 9%;
+  height: 8em;
+}
+
+@media only screen and (max-width: 420px) {
+  /* For mobile phones: */
+  body {
+    font-family: Arial;
+    max-width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  header {
+    font-size: 3vw;
+    padding: 1.2em;
+    padding-bottom: 1.4em;
+    position: relative;
+    left: -1em;
+    height: auto;
+    letter-spacing: 1px;
+  }
+
+  section {
+    max-width: 100%;
+    position: relative;
+    padding-top: 40%;
+    width: 100%;
+  }
+
+  .featured {
+    background-color: rgb(67, 119, 185);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 12em;
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  .featured-text {
+    top: 27em;
+    left: -44em;
+    bottom: 0;
+    right: 0;
+    max-height: 13em;
+    width: 100%;
+    display: inline-block;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+  }
+
+  .first-section {
+    max-width: 100%;
+    position: relative;
+    top: 1em;
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  .four-column {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .small-container {
+    padding-top: 5%;
+    flex: 100%;
+    max-width: 50%;
+  }
+
+  .small-feature {
+    background-color: yellow;
+    max-height: 40%;
+    height: 20em;
+  }
+
+  #first {
+    background-color: rgb(67, 119, 185);
+    width: 15em;
+  }
+
+  #second {
+    background-color: rgb(42, 77, 122);
+    width: 15em;
+    position: relative;
+    left: 0.8em;
+  }
+
+  #third {
+    background-color: rgb(131, 46, 148);
+    width: 15em;
+    position: relative;
+    left: -200%;
+    top: 85%;
+  }
+
+  #fourth {
+    background-color: rgb(223, 118, 32);
+    width: 15em;
+    position: relative;
+    left: -190%;
+    top: 85%;
+  }
+
+  .small-textbox {
+    background-color: rgb(206, 206, 206);
+    position: relative;
+    top: 15%;
+    max-height: 16%;
+    height: 8em;
+  }
+
+  #first-textbox {
+    max-width: 90%;
+  }
+
+  #second-textbox {
+    max-width: 90%;
+    position: relative;
+    left: 0.8em;
+  }
+
+  #third-textbox {
+    max-width: 90%;
+    position: relative;
+    top: 100%;
+    left: -200%;
+  }
+
+  #fourth-textbox {
+    max-width: 90%;
+    position: relative;
+    left: -190%;
+    top: 100%;
+  }
+
+  .second-section {
+    max-width: 100%;
+    position: relative;
+    padding-top: 40%;
+    width: 100%;
+    top: 6em;
+  }
+
+  .three-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .med-container {
+    flex: 100%;
+    max-width: 100%;
+    max-height: 500%;
+  }
+
+  .med-feature {
+    background-color: yellow;
+    max-height: 24%;
+    height: 24em;
+  }
+
+  #first-med {
+    background-color: rgb(192, 46, 46);
+    max-width: 100%;
+    height: 24em;
+  }
+
+  #second-med {
+    background-color: rgb(235, 216, 49);
+    max-width: 100%;
+    height: 24em;
+    left: 0em;
+    top: -55%;
+  }
+
+  #third-med {
+    background-color: rgb(34, 133, 31);
+    max-width: 100%;
+    height: 24em;
+    left: 0em;
+    top: -105%;
+  }
+
+  .med-textbox {
+    background-color: rgb(206, 206, 206);
+    position: relative;
+    top: 4%;
+    max-height: 4%;
+    height: 8em;
+  }
+
+  #med-first-textbox {
+    max-width: 100%;
+  }
+
+  #med-second-textbox {
+    max-width: 100%;
+    position: relative;
+    left: 0em;
+    top: -50%;
+  }
+
+  #med-third-textbox {
+    max-width: 100%;
+    position: relative;
+    left: 0em;
+    top: -100%;
+  }
+
+  .second-med-textbox {
+    background-color: rgb(206, 206, 206);
+    position: relative;
+    top: 1%;
+    max-height: 4%;
+    height: 8em;
+  }
+}
